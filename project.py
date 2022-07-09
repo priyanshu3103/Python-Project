@@ -9,7 +9,7 @@ while(True):
         print("Please enter any one option")
         print("1.Rock","2.Paper","3.Scissor",end="\n")
 
-                                            # User can take the input (Rock/Paper/Scissor)
+        # User can take the input (Rock/Paper/Scissor)
         user_choice=int(input())
         if(user_choice == 1):
             print("you select Rock")
@@ -23,8 +23,7 @@ while(True):
         else:
             print("Invalid selection")
             break
-
-                                           # Computer can take random input (Rock/Paper/Scissor)
+        # Computer can take random input (Rock/Paper/Scissor)
         comp_choice=random.choice(choicee)
         print("Computer choice",comp_choice)
 
